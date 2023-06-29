@@ -1,21 +1,55 @@
-body {
-  background-color: blueviolet;
-  font-family: "Montserrat", sans-serif;
+:root {
+  --branding-color: #e5e5e5;
+  --accent-color: #be3144;
+  --primary-color: #303841;
+  --secondary-color: #fff;
+  --default-font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-  color: greenyellow;
+body {
+  background-color: #e5e5e5;
+  font-family: var(--default-font-family);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--primary-color);
+}
+
+.hero {
+  background: var(--branding-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.hero h1 {
+  font-size: 96px;
   font-weight: 700;
 }
 
-h2 {
-  color: greenyellow;
-  font-weight: 600;
-}
-h3 {
-  color: greenyellow;
+.hero h2 {
+  font-size: 24px;
   font-weight: 400;
+  line-height: 2;
 }
-i {
-  color: greenyellow;
+
+.btn-branding {
+  border-radius: 4px;
+  background: var(--accent-color);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  text-transform: uppercase;
+  padding: 13px 30px;
 }
