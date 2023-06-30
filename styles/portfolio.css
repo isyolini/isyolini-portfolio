@@ -96,21 +96,21 @@ img {
   padding: 160px 60px;
 }
 
-.about-section {
+.content-container {
   padding: 120px 20px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 20px;
   line-height: 32px;
 }
 
-.about-section ul {
+.content-container ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 2;
@@ -118,7 +118,7 @@ img {
   padding: 0;
 }
 
-.about-section-content {
+.content {
   margin: 15px;
 }
 
@@ -149,12 +149,12 @@ img {
     text-align: center;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
 
-  .about-section img {
+  .content-container img {
     margin: 35px 0;
     width: 220px;
   }
