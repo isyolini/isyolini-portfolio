@@ -100,16 +100,27 @@ img {
   padding: 120px 20px;
 }
 
-.content-container h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.content-container h2 {
+.content h2 {
   font-size: 20px;
   line-height: 32px;
 }
 
+.content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.content p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
+}
 .content-container ul {
   font-size: 16px;
   font-weight: 400;
