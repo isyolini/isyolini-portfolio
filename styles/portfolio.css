@@ -31,7 +31,7 @@ h2 {
 
 h3 {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 h4 {
@@ -75,7 +75,7 @@ nav li.active a {
 .hero {
   background-color: var(--branding-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -93,12 +93,17 @@ nav li.active a {
 .btn-branding {
   border-radius: 4px;
   background: var(--accent-color);
-  color: #fff;
+  color: var(--secondary-color);
   font-size: 15px;
   font-weight: 400;
   line-height: 27px;
   text-transform: uppercase;
   padding: 13px 30px;
+}
+
+.btn-branding:hover {
+  border: 1px solid var(--accent-color);
+  color: var(--primary-color);
 }
 
 .btn-branding-outline {
@@ -110,6 +115,11 @@ nav li.active a {
   line-height: 27px;
   text-transform: uppercase;
   padding: 13px 30px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--accent-color);
+  color: var(--secondary-color);
 }
 
 .item h2 {
@@ -134,7 +144,7 @@ img {
 }
 
 .content-container {
-  padding: 120px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -144,7 +154,6 @@ img {
 
 .content h2 {
   font-size: 20px;
-  line-height: 32px;
 }
 
 .content h3 {
@@ -216,10 +225,6 @@ footer .social-links a:hover {
     font-size: 25px;
   }
 
-  .hero {
-    padding: 80px 20px;
-  }
-
   .item h2 {
     font-size: 38px;
     font-weight: 700;
@@ -235,8 +240,8 @@ footer .social-links a:hover {
   }
 
   .content-container img {
-    margin: 35px 0;
-    width: 220px;
+    margin: 25px 0;
+    max-width: 300px;
   }
 
   footer .contact-box {
